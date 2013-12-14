@@ -12,8 +12,8 @@ class HomeController extends BaseController {
     }
 
     public function index(){
-
-
+        $this->objectAccessor->setPageObjectTitle("title");
+        $this->view->page = $this->objectAccessor->getPageObject();
         $this->view->render("index/index");
     }
 } 

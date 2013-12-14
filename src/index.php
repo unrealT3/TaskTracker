@@ -10,7 +10,7 @@
 
 require 'core/FileLoader.php';
 //base files to be loaded
-$libraryFiles = array("BaseController","DirectionController", "Router", "View");
+$libraryFiles = array("BaseController","DirectionController", "Router", "View", "ObjectAccessor", "PageObject");
 $configFiles = array("paths", "database");
 
 
