@@ -10,9 +10,9 @@
 
 require 'core/FileLoader.php';
 //base files to be loaded
-$libraryFiles = array("BaseController","DirectionController", "Router", "View", "ObjectAccessor", "PageObject");
+$libraryFiles = array("BaseController","DirectionController", "Router", "View", "ObjectAccessor", "PageObject", "Database", "ModelFactory", "Modelz");
 $configFiles = array("paths", "database");
-
+require'models/signup_model.php';
 
 //load files
 $fileLoader = new FileLoader();

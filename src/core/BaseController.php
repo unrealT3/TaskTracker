@@ -8,13 +8,11 @@
 
 class BaseController {
     protected $objectAccessor;
-    function __construct(){
+    function __construct($modelName){
         $this->view = new View();
-        if(!isset($this->objectAccessor)){
-            $this->objectAccessor = new ObjectAccessor();
-        }
-
-
+        $this->objectAccessor = new ObjectAccessor();
+        //$this->modelFactory = new ModelFactory();
+        $this->model = new SignupModel;
 
 
     }

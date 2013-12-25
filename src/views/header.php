@@ -23,7 +23,7 @@
             <li><a class="tasks" href="<?php echo URL; ?>tasks">My Tasks</a></li>
             <li><a class="logout" href="<?php echo URL; ?>dashboard/logout">Logout</a></li>
 
-            <li><a class="index" href="<?php echo URL; ?>index">Index</a></li>
+            <li><a class="index" href="<?php echo URL; ?>home">Home</a></li>
             <li><a class="login" href="<?php echo URL; ?>login">Login</a></li>
             <li><a class="signup" href="<?php echo URL; ?>signup">Sign-up</a></li>
 
